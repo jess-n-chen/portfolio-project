@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -26,13 +26,60 @@
       src="https://kit.fontawesome.com/ec09384b84.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>jessica chen - home</title>
   </head>
   <body>
-    <h1>Hello!</h1>
-    <p>
-      This is a test
-      <i class="fas fa-rocket"></i>
-    </p>
+    <div class="navigation-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">JC</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html#contact-section">
+                  contact me
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-background">
+      <video
+        playsinline
+        autoplay
+        muted
+        loop
+        id="hero-video"
+        poster="/images/hero-video-placeholder.png"
+      >
+        <source src="/images/production ID_5056537.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-text">
+      <h1 class="text-center">jessica chen</h1>
+      <h2 class="text-center mb-3">front-end developer based in New York</h2>
+      <div class="hero-button">
+        <a href="#" class="btn btn-lg btn-hero">view my projects</a>
+      </div>
+    </div>
   </body>
 </html>
