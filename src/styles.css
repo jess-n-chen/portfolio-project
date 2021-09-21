@@ -108,7 +108,27 @@ body {
 }
 
 @media (max-width: 768px) {
+  h2 {
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 52px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
   .hero-text h1 {
     font-size: 96px !important;
+  }
+
+  .section-links {
+    display: block;
+    margin: 0 10px;
+    text-align: center;
   }
 }
