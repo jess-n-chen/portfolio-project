@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -28,8 +28,67 @@
     ></script>
     <title>jessica chen - about me</title>
   </head>
-  <body>
-    <h1>about me</h1>
-    <p>This is my website</p>
+  <body class="about-page">
+    <div class="navigation-bar fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">👩‍💻</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html#contact-section">
+                  contact me
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container about-section mt-5">
+      <div class="row">
+        <div class="col-md-4 about-picture-container">
+          <img
+            src="/images/IMG_0519.png"
+            alt="Picture of Developer"
+            class="about-picture img-fluid"
+          />
+        </div>
+        <div class="col-md-8 about-content mt-5 px-5">
+          <h1>jessica chen</h1>
+          <p class="fw-bold">front-end developer based in New York</p>
+          <p>
+            Hi! I'm Jessica 👋 I have a passion for learning new skills and am
+            currently utilizing that passion to learn front-end development
+            through SheCodes!
+          </p>
+          <p>
+            During the day, I help customers integrate their content management
+            systems with Smartling as a Solutions Architect! I'm also a mom to
+            an awesome 6 year old!
+          </p>
+          <div class="view-button mt-5">
+            <a href="#" class="section-links">View My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
