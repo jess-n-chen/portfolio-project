@@ -130,6 +130,12 @@ body {
   font-weight: 200 !important;
 }
 
+.inquiry-box {
+  background: var(--primary-color-half-opacity);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
 .other-pages {
   background: url("/images/pexels-natalie-1201538.jpg") fixed center;
 }
