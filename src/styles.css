@@ -10,7 +10,7 @@
   --secondary-color-3-half-opacity: rgba(240, 236, 226, 0.5);
 }
 h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color-1);
   font-family: "Dancing Script", cursive;
   font-size: 96px !important;
 }
@@ -47,14 +47,6 @@ body {
 
 .about-content p {
   color: var(--secondary-color-1) !important;
-}
-
-.about-page {
-  background: url("/images/pexels-natalie-1201538.jpg") fixed center;
-}
-
-.about-page h1 {
-  color: var(--secondary-color-1);
 }
 
 .about-picture-container {
@@ -105,18 +97,36 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .hero-text {
   display: block;
   padding: 20% 0%;
 }
+
 .hero-text h1 {
   color: var(--secondary-color-1);
   font-size: 150px !important;
 }
+
 .hero-text h2 {
   color: var(--secondary-color-1);
   font-size: 24px !important;
   font-weight: 200 !important;
+}
+
+.other-pages {
+  background: url("/images/pexels-natalie-1201538.jpg") fixed center;
+}
+
+.project-image {
+  height: 28rem !important;
+  object-fit: cover;
+  width: 36rem;
+}
+
+.work-page h2 {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 #hero-video {
@@ -130,7 +140,8 @@ body {
   z-index: -100;
 }
 
-#middle-section {
+#middle-section,
+.work-page-section {
   background: var(--primary-color-half-opacity);
   border-radius: 6px;
   padding: 5%;
@@ -161,6 +172,12 @@ body {
 
   .hero-text h1 {
     font-size: 96px !important;
+  }
+
+  .project-image {
+    height: 20rem !important;
+    object-fit: cover;
+    width: auto;
   }
 
   .section-links {
